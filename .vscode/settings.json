@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "html.format.endWithNewline": true,
+  "tslint.exclude": [
+    "**/node_modules/**",
+    "**/test/**"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.printWidth": 260,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "search.exclude": {
+    "**/.vscode": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "files.autoSave": "off",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.rpt2_cache/**": true,
+    "**/dist/**": true,
+    "**/node_modules/*/**": true
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
